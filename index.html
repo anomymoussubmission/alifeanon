@@ -118,14 +118,6 @@ dt-article figcaption b {
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
 
-<!--<script src="lib/jquery-1.12.4.min.js"></script>
-<script src="lib/mobile-detect.min.js"></script>-->
-<script src="lib/template.v1.js"></script>
-
-<script type="text/front-matter">
-  title: "Shape Change and Control of Pressure-based Soft Agents"
-  description: ""
-</script>
 <body>
 <div style="text-align: center;">
 <table style="width: 100%;" cellspacing="0" cellpadding="0"><tr>
@@ -138,14 +130,13 @@ dt-article figcaption b {
 <dt-article id="dtbody">
 
 <div style="text-align: center;">
-<figcaption style="text-align: left; color:#FF6C00; padding-top: 0;"><br/>Softness is arguably one of the greatest gifts of mother nature. Biological agents possess bodies that are mostly of soft tissues. Similarly, a new era of soft robots has just begun, and researchers have resorted to soft bodies to investigate Artificial Life (ALife)-related questions. Nevertheless, because of their infinite degrees of freedom, soft bodies pose unique challenges in terms of simulation, control, and optimization. Here we propose a novel soft-bodied agents formalism, namely Pressure-based Soft Agents (PSAs): they are bodies of gas enveloped by a chain of springs and masses, with pressure pushing on the masses from inside the body. Pressure endows the agents with structure, while springs and masses simulate softness and allow the agents to assume an infinite gamut of shapes. Actuation takes place by changing the resting length of springs or modulating internal pressure. We optimize PSAs for a locomotion on hilly terrain and an escape from a cage tasks; the latter is particularly suitable for soft-bodied agents, as it requires the agent to contort itself to squeeze through a small aperture. Our results suggest that PSAs are indeed effective at those tasks, and that controlling pressure is fundamental for shape-changing. Looking forward, we envision PSAs to play a role in the modeling of soft-bodied agents, including soft robots and biological cells.</figcaption>
+<figcaption style="text-align: left; padding-top: 0;"><br/>Softness is arguably one of the greatest gifts of mother nature. Biological agents possess bodies that are mostly of soft tissues. Similarly, a new era of soft robots has just begun, and researchers have resorted to soft bodies to investigate Artificial Life (ALife)-related questions. Nevertheless, because of their infinite degrees of freedom, soft bodies pose unique challenges in terms of simulation, control, and optimization. Here we propose a novel soft-bodied agents formalism, namely Pressure-based Soft Agents (PSAs): they are bodies of gas enveloped by a chain of springs and masses, with pressure pushing on the masses from inside the body. Pressure endows the agents with structure, while springs and masses simulate softness and allow the agents to assume an infinite gamut of shapes. Actuation takes place by changing the resting length of springs or modulating internal pressure. We optimize PSAs for a locomotion on hilly terrain and an escape from a cage tasks; the latter is particularly suitable for soft-bodied agents, as it requires the agent to contort itself to squeeze through a small aperture. Our results suggest that PSAs are indeed effective at those tasks, and that controlling pressure is fundamental for shape-changing. Looking forward, we envision PSAs to play a role in the modeling of soft-bodied agents, including soft robots and biological cells.</figcaption>
 <figcaption style="text-align: left; padding-top: 0;"><br/>
 </figcaption>
 </div>
 
 <dt-byline class="l-page transparent"></dt-byline>
 <h1> Shape Change and Control of Pressure-based Soft Agents</h1>
-<p></p>
 <dt-byline class="l-page" id="authors_section" hidden>
 <div class="byline">
   <div class="authors">
@@ -165,28 +156,9 @@ dt-article figcaption b {
 <hr>
 </dt-article>
 <dt-appendix>
-<h2>Acknowledgements</h2>
-<p>This article was prepared using the <a href="https://distill.pub">Distill</a> <a href="https://github.com/distillpub/template">template</a>.</p>
 <h2>Open Source Code</h2>
 <p>Code to reproduce results in this work will be released upon the paper's publication.</p>
 </dt-appendix>
 </dt-appendix>
 </body>
-</script>
-<script src="lib/blazy.js"></script>
-<script>
-  // blazy code
-  var bLazy = new Blazy({
-    success: function(){
-      updateCounter();
-    }
-  });
-
-  // not needed, only here to illustrate amount of loaded images
-  var imageLoaded = 0;
-
-  function updateCounter() {
-    imageLoaded++;
-    console.log("blazy image loaded: "+imageLoaded);
-  }
 </script>
